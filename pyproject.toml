@@ -147,7 +147,7 @@ dependencies = [
 
 [project.optional-dependencies]
 sqlalchemy = [
-    "fastapi-users-db-sqlalchemy >=6.0.0",
+    "fastapi-users-db-sqlalchemy@git+https://github.com/hieu292/fastapi-users-db-sqlalchemy.git#egg=fix/table",
 ]
 beanie = [
     "fastapi-users-db-beanie >=3.0.0",
